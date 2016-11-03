@@ -24,6 +24,11 @@ table {border-collapse: collapse;}
 	padding: 0;
 }
 
+.column .column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
 
