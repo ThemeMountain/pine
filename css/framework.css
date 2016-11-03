@@ -1,0 +1,175 @@
+/*
+	This file contains all the CSS from the Pine Framework.
+	Your production email templates will very likely not need everything here.
+	Ready-made templates should include only the necessary CSS styles.
+	This file is provided as a convenience, in case you want to add a new module to a	template and the module requires some CSS that is not present in the template.
+ */
+
+
+/* Reset Styles */
+::selection {color: #FFFFFF; background: #33363a;}
+#outlook a {padding: 0;}
+body, table, th, td, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-weight: 400; text-align: left;}
+img {-ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+table {border-collapse: collapse;}
+
+/* Base Layout*/
+.row {width: 700px;}
+.row .row {width: 100%;}
+
+.column,
+.column .column,
+.row .row {
+	Margin: 0;
+	padding: 0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 699px) {
+
+  .wrapper {min-width: 100% !important;}
+	.row {width: 90%;}
+
+	.row .column {
+	  height: auto !important;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  padding-left: 30px !important;
+	  padding-right: 30px !important;
+	}
+
+	.column .column,
+  .row.mobile-collapsed .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+	/* Columns */
+	.column {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+	.mobile-1  {width: 8.33333% !important;}
+	.mobile-2  {width: 16.66667% !important;}
+	.mobile-3  {width: 25% !important;}
+	.mobile-4  {width: 33.33333% !important;}
+	.mobile-5  {width: 41.66667% !important;}
+	.mobile-6  {width: 50% !important;}
+	.mobile-7  {width: 58.33333% !important;}
+	.mobile-8  {width: 66.66667% !important;}
+	.mobile-9  {width: 75% !important;}
+	.mobile-10 {width: 83.33333% !important;}
+	.mobile-11 {width: 91.66667% !important;}
+
+	/* Column Offsets */
+	.mobile-offset-1  {Margin-left: 8.33333% !important;}
+	.mobile-offset-2  {Margin-left: 16.66667% !important;}
+	.mobile-offset-3  {Margin-left: 25% !important;}
+	.mobile-offset-4  {Margin-left: 33.33333% !important;}
+	.mobile-offset-5  {Margin-left: 41.66667% !important;}
+	.mobile-offset-6  {Margin-left: 50% !important;}
+	.mobile-offset-7  {Margin-left: 58.33333% !important;}
+	.mobile-offset-8  {Margin-left: 66.66667% !important;}
+	.mobile-offset-9  {Margin-left: 75% !important;}
+	.mobile-offset-10 {Margin-left: 83.33333% !important;}
+	.mobile-offset-11 {Margin-left: 91.66667% !important;}
+
+	/* Media */
+	img {
+	  width: 100%;
+	  height: auto;
+	}
+  .has-bg-image {background-size: cover;}
+
+	/* Alignment */
+	.mobile-center {
+	  display: table !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	}
+	.mobile-text-center {text-align: center !important;}
+	.mobile-text-left   {text-align: left !important;}
+	.mobile-text-right  {text-align: right !important;}
+
+	/* Visibility */
+	.show-on-mobile {
+	  display: table !important;
+	  overflow: visible !important;
+	  line-height: inherit !important;
+	}
+
+	.hide-on-mobile {
+	  display: none !important;
+	  width: 0;
+	  overflow: hidden;
+	}
+
+	/* Column Reordering */
+	.mobile-full-width {
+	  display: table;
+	  width: 100%;
+	}
+
+	.mobile-first {display: table-header-group !important;}
+	.mobile-intermediate {display: table-row !important;}
+	.mobile-last {display: table-footer-group !important;}
+
+	.mobile-first th,
+	.mobile-intermediate th,
+	.mobile-last th {
+	  padding-left: 30px !important;
+	  padding-right: 30px !important;
+	}
+
+	/* Menu */
+  .menu[align="center"],
+  .menu.mobile-center {
+    width: auto !important;
+  }
+  .menu th {
+    width: auto !important;
+    display: inline-block !important;
+    padding-bottom: 15px !important;
+  }
+  .menu.mobile-vertical th {
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Interactive components: Hamburger Menu, Accordion */
+  .hamburger-menu-wrap {padding: 20px 0;}
+
+  .hamburger-menu,
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -ms-transition: max-height .2s ease-in-out;
+    -webkit-transition: max-height .2s ease-in-out;
+      transition: max-height .2s ease-in-out;
+  }
+  .menu-trigger img {
+    display: block;
+    margin: 0 auto !important;
+    float: none !important;
+    max-height: none !important;
+  }
+  .menu-trigger:hover + .hamburger-menu,
+  .hamburger-menu:hover,
+  .accordion-item:hover .accordion-content {
+    max-height: 999px !important;
+    overflow: visible !important;
+  }
+
+  /* Spacing Helpers */
+  .spacer          {height: 30px;}
+  .mobile-p-t      {padding-top: 30px !important;}
+  .mobile-p-t-mini {padding-top: 10px !important;}
+  .mobile-p-b      {padding-bottom: 30px !important;}
+  .mobile-p-b-mini {padding-bottom: 10px !important;}
+  .mobile-m-t      {margin-top: 30px !important;}
+  .mobile-m-t-mini {margin-top: 10px !important;}
+  .mobile-m-b      {margin-bottom: 30px !important;}
+  .mobile-m-b-mini {margin-bottom: 10px !important;}
+}
