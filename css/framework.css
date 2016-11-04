@@ -82,7 +82,7 @@ th.menu-item {width: 100%;}
 	  width: 100%;
 	  height: auto;
 	}
-  .has-bg-image {background-size: cover;}
+  .has-bg-image {background-size: cover !important;}
 
 	/* Alignment */
 	.mobile-center {
