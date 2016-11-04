@@ -29,6 +29,8 @@ table {border-collapse: collapse;}
   padding-right: 0 !important;
 }
 
+th.menu-item {width: 100%;}
+
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
 
@@ -89,7 +91,7 @@ table {border-collapse: collapse;}
 
 	/* Alignment */
 	.mobile-center {
-	  display: table !important;
+	  display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 	}
