@@ -24,7 +24,10 @@ table {border-collapse: collapse;}
 	padding: 0;
 }
 
-th.menu-item {width: 100%;}
+th.menu-item {
+  display: inline;
+  width: 100%;
+}
 
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
@@ -86,7 +89,7 @@ th.menu-item {width: 100%;}
 
 	/* Alignment */
 	.mobile-center {
-	  display: block !important;
+	  display: table !important;
     margin-left: auto !important;
     margin-right: auto !important;
 	}
