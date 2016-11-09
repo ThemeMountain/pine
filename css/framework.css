@@ -79,7 +79,8 @@ th.menu-item {
 
 	/* Media */
 	img {
-	  width: 100%;
+		max-width: 100%;
+	  width: auto;
 	  height: auto;
 	}
   .has-bg-image {background-size: cover !important;}
