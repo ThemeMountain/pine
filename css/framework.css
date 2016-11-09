@@ -20,7 +20,7 @@ table {border-collapse: collapse;}
 .column,
 .column .column,
 .row .row {
-	Margin: 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -32,13 +32,10 @@ th.menu-item {
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
 
-  .wrapper {min-width: 100% !important;}
 	.row {width: 90%;}
 
 	.row .column {
 	  height: auto !important;
-	  -moz-box-sizing: border-box;
-	  -webkit-box-sizing: border-box;
 	  box-sizing: border-box;
 	  padding-left: 30px !important;
 	  padding-right: 30px !important;
@@ -68,17 +65,17 @@ th.menu-item {
 	.mobile-11 {width: 91.66667% !important;}
 
 	/* Column Offsets */
-	.mobile-offset-1  {Margin-left: 8.33333% !important;}
-	.mobile-offset-2  {Margin-left: 16.66667% !important;}
-	.mobile-offset-3  {Margin-left: 25% !important;}
-	.mobile-offset-4  {Margin-left: 33.33333% !important;}
-	.mobile-offset-5  {Margin-left: 41.66667% !important;}
-	.mobile-offset-6  {Margin-left: 50% !important;}
-	.mobile-offset-7  {Margin-left: 58.33333% !important;}
-	.mobile-offset-8  {Margin-left: 66.66667% !important;}
-	.mobile-offset-9  {Margin-left: 75% !important;}
-	.mobile-offset-10 {Margin-left: 83.33333% !important;}
-	.mobile-offset-11 {Margin-left: 91.66667% !important;}
+	.mobile-offset-1  {margin-left: 8.33333% !important;}
+	.mobile-offset-2  {margin-left: 16.66667% !important;}
+	.mobile-offset-3  {margin-left: 25% !important;}
+	.mobile-offset-4  {margin-left: 33.33333% !important;}
+	.mobile-offset-5  {margin-left: 41.66667% !important;}
+	.mobile-offset-6  {margin-left: 50% !important;}
+	.mobile-offset-7  {margin-left: 58.33333% !important;}
+	.mobile-offset-8  {margin-left: 66.66667% !important;}
+	.mobile-offset-9  {margin-left: 75% !important;}
+	.mobile-offset-10 {margin-left: 83.33333% !important;}
+	.mobile-offset-11 {margin-left: 91.66667% !important;}
 
 	/* Media */
 	img {
