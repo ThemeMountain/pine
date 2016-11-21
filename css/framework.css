@@ -85,6 +85,7 @@ th.menu-item {display: inline;}
 	/* Alignment */
 	.mobile-center {
 	  display: table !important;
+	  float: none;
     margin-left: auto !important;
     margin-right: auto !important;
 	}
