@@ -163,8 +163,7 @@ th.menu-item {display: inline;}
 
   /* Spacing Helpers */
   .spacer          {height: 30px;}
-  .divider-top     {padding-top: 30px !important;}
-  .divider-bottom  {padding-bottom: 30px !important;}
+  .divider th      {height: 30px;}
   .mobile-p-t      {padding-top: 30px !important;}
   .mobile-p-t-mini {padding-top: 10px !important;}
   .mobile-p-b      {padding-bottom: 30px !important;}
