@@ -20,7 +20,6 @@
 
     <style type="text/css">
 
-      ::selection {color: #FFFFFF; background: #33363A;}
       #outlook a {padding: 0;}
       table, th, td, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-weight: 400; line-height: 26px; text-align: left;}
       img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;}
@@ -29,33 +28,14 @@
       .row {width: 700px;}
       .row .row {width: 100%;}
 
-      .column,
-      .column .column,
-      .row .row {
-        margin: 0;
-        padding: 0;
-      }
-
       th.menu-item {display: inline;}
 
       @media only screen and (max-width: 699px) {
 
         .row {width: 90%;}
 
-        .row .column {
-          height: auto !important;
-          box-sizing: border-box;
-          padding-left: 30px !important;
-          padding-right: 30px !important;
-        }
-
-        .column .column,
-        .row.mobile-collapsed .column {
-          padding-left: 0 !important;
-          padding-right: 0 !important;
-        }
-
         .column {
+          box-sizing: border-box;
           display: inline-block !important;
           width: 100% !important;
         }
@@ -70,6 +50,10 @@
         .mobile-9  {width: 75% !important;}
         .mobile-10 {width: 83.33333% !important;}
         .mobile-11 {width: 91.66667% !important;}
+        .mobile-12 {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
+        }
 
         .mobile-offset-1  {margin-left: 8.33333% !important;}
         .mobile-offset-2  {margin-left: 16.66667% !important;}
@@ -82,6 +66,21 @@
         .mobile-offset-9  {margin-left: 75% !important;}
         .mobile-offset-10 {margin-left: 83.33333% !important;}
         .mobile-offset-11 {margin-left: 91.66667% !important;}
+
+        .mobile-collapsed .column {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .has-columns {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+
+        .has-columns .column {
+          padding-right: 10px !important;
+          padding-left: 10px !important;
+        }
 
         img {
           max-width: 100%;
@@ -165,16 +164,17 @@
         }
 
         .spacer,
-        .divider th      {height: 30px;}
-        .mobile-p-t      {padding-top: 30px !important;}
-        .mobile-p-t-mini {padding-top: 10px !important;}
-        .mobile-p-b      {padding-bottom: 30px !important;}
-        .mobile-p-b-mini {padding-bottom: 10px !important;}
-        .mobile-m-t      {margin-top: 30px !important;}
-        .mobile-m-t-mini {margin-top: 10px !important;}
-        .mobile-m-b      {margin-bottom: 30px !important;}
-        .mobile-m-b-mini {margin-bottom: 10px !important;}
+        .divider th                 {height: 30px;}
+        .mobile-padding-top         {padding-top: 30px !important;}
+        .mobile-padding-top-mini    {padding-top: 10px !important;}
+        .mobile-padding-bottom      {padding-bottom: 30px !important;}
+        .mobile-padding-bottom-mini {padding-bottom: 10px !important;}
+        .mobile-margin-top          {margin-top: 30px !important;}
+        .mobile-margin-top-mini     {margin-top: 10px !important;}
+        .mobile-margin-bottom       {margin-bottom: 30px !important;}
+        .mobile-margin-bottom-mini  {margin-bottom: 10px !important;}
       }
+
     </style>
   </head>
   <body style="box-sizing: border-box; font-family: Helvetica, Arial, sans-serif; font-size: 16px; margin: 0; padding: 0; width: 100%;">
