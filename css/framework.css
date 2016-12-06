@@ -21,7 +21,7 @@ th.menu-item {display: inline;}
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
 
-	.row {width: 90%;}
+	.row {width: 90% !important;}
 
 	/* Columns */
 	.column {
