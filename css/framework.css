@@ -12,6 +12,18 @@ table, th, td {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-
 img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;}
 table {border-collapse: collapse;}
 
+/*
+	Webfonts
+
+	This is just an example, remove if not using webfonts in your email.
+	Read the docs: http://pine.thememountain.com/components/typography.html
+*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+@media only screen {
+  .serif {font-family: 'Merriweather', Georgia, serif !important;}
+  .sans-serif {font-family: 'Open Sans', Arial, sans-serif !important;}
+}
+
 /* Base Layout*/
 .row {width: 700px;}
 .row .row {width: 100%;}
