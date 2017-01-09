@@ -33,7 +33,8 @@ th.menu-item {display: inline;}
 /* Responsive Styles */
 @media only screen and (max-width: 699px) {
 
-	.row {width: 90% !important;}
+  .row {width: 90% !important;}
+	.row .row {width: 100% !important;}
 
 	/* Columns */
 	.column {
