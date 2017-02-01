@@ -72,11 +72,6 @@ th.menu-item {display: inline;}
 	.mobile-offset-11 {margin-left: 91.66667% !important;}
 
   /* Column nesting */
-  .mobile-collapsed .column {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
   .has-columns {
     padding-right: 20px !important;
     padding-left: 20px !important;
@@ -85,6 +80,11 @@ th.menu-item {display: inline;}
   .has-columns .column {
     padding-right: 10px !important;
     padding-left: 10px !important;
+  }
+
+  .mobile-collapsed .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
 	/* Media */
