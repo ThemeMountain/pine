@@ -20,8 +20,12 @@ Simply copy HTML and stack grid elements in a default layout file, then add your
 
 ## Documentation
 
-Framework documentation is available at [pine.thememountain.com](http://pine.thememountain.com/)
+Framework documentation is available at [thememountain.github.io/pine](https://thememountain.github.io/pine/)
 
 ## Issues
 
 If you found a bug in Pine, please [open an issue](https://github.com/ThemeMountain/tm-pine/issues).
+
+## In The Wild
+
+Are you using Pine for your email templates? [Let us know](mailto:info@thememountain.com), and we'll add your logo here.
