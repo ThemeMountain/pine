@@ -12,7 +12,8 @@ Simply copy HTML and stack grid elements in a default layout file, then add your
 - Compatible with major email clients, thoroughly tested
 - Responsive, 12 column grid
 - Interactive components (hamburger menu, accordions)
-- Facilitates Outlook background image support
+- Outlook & Windows 10 Mail background image support
+- Retina image support
 - Mobile breakpoint column sizes and offsets
 - Alignment and visibility helpers
 - Reverse column stacking on mobile
