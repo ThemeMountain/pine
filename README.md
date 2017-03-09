@@ -27,6 +27,10 @@ Framework documentation is available at [thememountain.github.io/pine](https://t
 
 If you found a bug in Pine, please [open an issue](https://github.com/ThemeMountain/tm-pine/issues).
 
+## Pine Slim
+
+12 columns sound too much for email? Take a look at [Pine Slim](https://github.com/hellocosmin/tm-pine-slim), a lighter alternative to Pine.
+
 ## In The Wild
 
 Are you using Pine for your email templates? [Let us know](mailto:info@thememountain.com), and we'll add your logo here.
