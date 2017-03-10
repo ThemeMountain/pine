@@ -28,6 +28,7 @@ table {border-collapse: collapse;}
 .row {width: 700px;}
 .row .row {width: 100%;}
 
+.spacer {overflow: hidden;}
 th.menu-item {display: inline;}
 
 /* Responsive Styles */
