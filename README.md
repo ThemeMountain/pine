@@ -2,11 +2,6 @@
 
 A modular and lightweight, responsive email framework by [ThemeMountain](http://thememountain.com/).
 
-Inspired by the awesome [Foundation for Emails](https://github.com/zurb/foundation-emails), we created a framework that is lighter, flexible, and reliable.
-
-There is no build system. Just a grid, some CSS, a few design patterns, and some awesome components.
-Simply copy HTML and stack grid elements in a default layout file, then add your own content inside them.
-
 ## Features
 
 - Compatible with major email clients, thoroughly tested
