@@ -27,7 +27,7 @@ table {border-collapse: collapse;}
 /* Base Layout*/
 .wrapper {min-width: 700px;}
 .row {margin: 0 auto; width: 700px;}
-.row .row {width: 100%;}
+.row .row, th .row {width: 100%;}
 
 .spacer {overflow: hidden;}
 th.menu-item {display: inline;}
