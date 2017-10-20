@@ -1,16 +1,17 @@
 /*
-	This file contains all the CSS from the Pine Framework.
-	Your production email templates will very likely not need everything here.
-	Ready-made templates should include only the necessary CSS styles.
-	This file is provided as a convenience, in case you want to add a new module to a	template and the module requires some CSS that is not present in the template.
- */
+  This file contains all the CSS from the Pine Framework.
+  Your production email templates will very likely not need everything here.
+  Ready-made templates should include only the necessary CSS styles.
+  This file is provided as a convenience, in case you want to add a new module to a	template and the module requires some CSS that is not present in the template.
+*/
 
 /*
-	Webfonts
+  Webfonts
 
-	This is just an example, remove if not using webfonts in your email.
-	Read the docs: http://pine.thememountain.com/components/typography.html
-  */
+  This is just an example, remove if not using webfonts in your email.
+  Read the docs: https://thememountain.github.io/pine/components/typography.html
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 @media only screen {
   .serif {font-family: 'Merriweather', Georgia, serif;}
