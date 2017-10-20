@@ -175,8 +175,7 @@ th.menu-item {display: inline;}
   }
 
   /* Spacing Helpers */
-  .spacer                     {height: 30px; line-height: 100% !important;}
-  .divider th                 {height: 60px;}
+  .spacer, .divider th        {height: 30px; line-height: 100% !important;}
   .mobile-padding-top         {padding-top: 30px !important;}
   .mobile-padding-top-mini    {padding-top: 10px !important;}
   .mobile-padding-bottom      {padding-bottom: 30px !important;}
