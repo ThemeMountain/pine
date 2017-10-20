@@ -90,9 +90,8 @@ th.menu-item {display: inline;}
 
   /* Media */
   img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
   }
 
   /* Alignment */
