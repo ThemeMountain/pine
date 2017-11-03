@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="x-apple-disable-message-reformatting" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--[if mso]>
     <xml>
@@ -16,19 +17,16 @@
     <style type="text/css">
 
       #outlook a {padding: 0;}
-      table, th, td {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; line-height: 24px;  word-break: break-all; word-break: break-word;}
-      table, th, td, h1, h2, h3, h4, h5, h6 {font-family: Helvetica, Arial, sans-serif;}
-      img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%;}
       table {border-collapse: collapse;}
+      img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%;}
+      .column, td, th, div, p {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; word-break: break-word;}
 
-      .row {
-        margin: 0 auto;
-        width: 700px;
-      }
-      .row .row {width: 100%;}
+      .wrapper {min-width: 700px;}
+      .row {margin: 0 auto; width: 700px;}
+      .row .row, th .row {width: 100%;}
 
-      .spacer {overflow: hidden;}
       th.menu-item {display: inline;}
+      .spacer, .divider {overflow: hidden; mso-line-height-rule: exactly;}
 
       @media only screen and (max-width: 699px) {
 
@@ -85,9 +83,8 @@
         }
 
         img {
-          max-width: 100%;
-          width: auto;
-          height: auto;
+          width: 100% !important;
+          height: auto !important;
         }
 
         .mobile-center {
@@ -146,9 +143,10 @@
         .accordion-content {
           max-height: 0;
           overflow: hidden;
-          -ms-transition: max-height .2s ease-in-out;
-          -webkit-transition: max-height .2s ease-in-out;
-            transition: max-height .2s ease-in-out;
+          position: relative;
+          transition: max-height .25s linear;
+            -ms-transition: max-height .25s linear;
+            -webkit-transition: max-height .25s linear;
         }
         .menu-trigger img {
           display: block;
@@ -163,8 +161,7 @@
           overflow: visible !important;
         }
 
-        .spacer                     {height: 30px; line-height: 100% !important; font-size: 100% !important;}
-        .divider th                 {height: 60px;}
+        .spacer, .divider th        {height: 30px; line-height: 100% !important;}
         .mobile-padding-top         {padding-top: 30px !important;}
         .mobile-padding-top-mini    {padding-top: 10px !important;}
         .mobile-padding-bottom      {padding-bottom: 30px !important;}
@@ -180,7 +177,7 @@
   </head>
   <body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%;">
 
-    <table class="wrapper" align="center" bgcolor="#EEEEEE" cellpadding="0" width="100%" style="min-width: 700px;">
+    <table class="wrapper" align="center" bgcolor="#EEEEEE" cellpadding="0" cellspacing="0" width="100%">
       <tr>
         <td style="padding: 30px 0;">
 
