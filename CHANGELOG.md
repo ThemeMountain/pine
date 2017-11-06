@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+Pine has been re-written (almost) from scratch, to make it more user friendly and flexible.
+
 ## 1.0.1
 
 #### Added
