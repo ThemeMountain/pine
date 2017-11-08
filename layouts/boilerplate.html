@@ -24,12 +24,12 @@
       }
 
       #outlook a {padding: 0;}
-      table {border-collapse: collapse;}
+      table {border-collapse: collapse; table-layout: fixed;}
       img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%;}
-      .col, td, th {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; font-size: 16px; line-height: 24px; vertical-align: top; word-break: break-word;}
+      .col, td, th {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; font-size: 16px; line-height: 24px; padding-top: 0; padding-bottom: 0; vertical-align: top; word-break: break-word;}
       .col, td, th, div, p, h1, h2, h3, h4, h5, h6 {font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;}
 
-      .row {margin: 0 auto; width: 700px;}
+      .container {margin: 0 auto; width: 700px;}
       .row .row {width: 100%;}
 
       .nav-item {display: inline-block;}
@@ -38,12 +38,11 @@
       @media only screen and (max-width: 699px) {
 
         u ~ div {min-width: 100vw;}
-        .row {width: 100%!important;}
+        .container {width: 100%!important;}
 
         .col {
           box-sizing: border-box;
           display: inline-block!important;
-          padding-left: 0!important;
           width: 100%!important;
         }
 
@@ -112,8 +111,8 @@
         .text-sm-left   {text-align: left!important;}
         .text-sm-right  {text-align: right!important;}
 
-        .full-width-sm {display: table!important; width: 100%!important; table-layout: fixed;}
-        .stack-sm-top {display: table-caption!important; max-width: 100%;}
+        .full-width-sm {display: table!important; width: 100%!important;}
+        .stack-sm-top {display: table-caption!important; max-width: 100%; padding-left: 0!important;}
         .stack-sm-first {display: table-header-group!important;}
         .stack-sm-last {display: table-footer-group!important;}
 
@@ -168,12 +167,18 @@
   </head>
   <body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%;">
 
-    <table class="container" bgcolor="#EEEEEE" cellpadding="15" cellspacing="0" role="presentation" width="100%">
+    <table bgcolor="#EEEEEE" cellpadding="15" cellspacing="0" width="100%">
       <tr>
         <td>
+          <table class="container" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" width="700">
+            <tr>
+              <td>
 
-          <!-- ADD ROWS HERE -->
+                <!-- ADD ROWS HERE -->
 
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
