@@ -1,4 +1,4 @@
-Copyright &copy; 2017 ThemeMountain
+Copyright &copy; 2018 ThemeMountain
 
 MIT License
 
