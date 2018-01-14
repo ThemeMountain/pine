@@ -19,7 +19,7 @@ Framework documentation is available at [thememountain.github.io/pine](https://t
 
 ## Issues
 
-If you found a bug or would like to suggest a feature, please [open an issue](https://github.com/ThemeMountain/tm-pine/issues).
+If you found a bug or would like to suggest a feature, please [open an issue](https://github.com/ThemeMountain/pine/issues).
 
 ## Acorn
 
