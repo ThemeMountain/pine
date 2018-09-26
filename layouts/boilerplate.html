@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-  <head></head>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="x-apple-disable-message-reformatting" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
     <title>Pine Email Framework</title>
     <!--[if mso]>
     <xml>
       <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
         <o:PixelsPerInch>96</o:PixelsPerInch>
       </o:OfficeDocumentSettings>
     </xml>
+    <style>
+      table {border-collapse: collapse;}
+      td,th,div,p,a {font-size: 16px; line-height: 26px;}
+      .spacer,.divider,div,p,a,h1,h2,h3,h4,h5,h6 {mso-line-height-rule: exactly;}
+      td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",Helvetica,Arial,sans-serif;}
+    </style>
     <![endif]-->
 
     <style type="text/css">
 
       @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
       @media only screen {
+        .col, td, th, div, p {font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;}
         .serif {font-family: 'Merriweather', Georgia, serif!important;}
         .sans-serif {font-family: 'Open Sans', Arial, sans-serif!important;}
       }
 
       #outlook a {padding: 0;}
-      table {border-collapse: collapse;}
-      .col, td, th {font-size: 16px; line-height: 26px; vertical-align: top;}
-      .col, td, th, div, p, h1, h2, h3, h4, h5, h6 {font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;}
-      img {border: 0; display: block; line-height: 100%;}
+      img {border: 0; line-height: 100%; vertical-align: middle;}
+      .col {font-size: 16px; line-height: 26px; vertical-align: top;}
 
-      .container {margin: 0 auto;}
-      .nav-item {display: inline-block;}
-      .spacer, .divider {mso-line-height-rule:exactly; overflow: hidden; vertical-align: middle;}
+      @media only screen and (max-width: 730px) {
+        .wrapper img {max-width: 100%;}
+        u ~ div .wrapper {min-width: 100vw;}
+        .container {width: 100%!important; -webkit-text-size-adjust: 100%;}
+      }
 
       @media only screen and (max-width: 699px) {
-
-        u ~ div .wrapper {min-width: 100vw;}
-        .container {-webkit-text-size-adjust: 100%; width: 100%!important;}
-
         .col {
           box-sizing: border-box;
           display: inline-block!important;
@@ -70,10 +71,10 @@
         .col-sm-push-10 {margin-left: 83.33333%;}
         .col-sm-push-11 {margin-left: 91.66667%;}
 
-        img {
-          width: 100%!important;
-          height: auto!important;
-        }
+        .full-width-sm {display: table!important; width: 100%!important;}
+        .stack-sm-first {display: table-header-group!important;}
+        .stack-sm-last {display: table-footer-group!important;}
+        .stack-sm-top {display: table-caption!important; max-width: 100%; padding-left: 0!important;}
 
         .toggle-content {
           max-height: 0;
@@ -82,9 +83,7 @@
             -webkit-transition: max-height .4s linear;
         }
         .toggle-trigger:hover + .toggle-content,
-        .toggle-content:hover {
-          max-height: 999px!important;
-        }
+        .toggle-content:hover {max-height: 999px!important;}
 
         .show-sm {
           display: inherit!important;
@@ -107,50 +106,53 @@
         .text-sm-left   {text-align: left!important;}
         .text-sm-right  {text-align: right!important;}
 
-        .full-width-sm {display: table!important; width: 100%!important;}
-        .stack-sm-top {display: table-caption!important; max-width: 100%; padding-left: 0!important;}
-        .stack-sm-first {display: table-header-group!important;}
-        .stack-sm-last {display: table-footer-group!important;}
-
         .borderless-sm {border: none!important;}
-        .spacer, .divider {height: 30px; line-height: 100%!important;}
-
-        .nav-item {padding: 0 10px 0!important;}
         .nav-sm-vertical .nav-item {display: block;}
-        .nav-sm-vertical .nav-item a {display:inline-block; padding: 5px 0!important;}
+        .nav-sm-vertical .nav-item a {display: inline-block; padding: 4px 0!important;}
 
-        .p-sm-0   {padding: 0!important;}
-        .p-sm-1   {padding: 10px!important;}
-        .p-sm-2   {padding: 30px!important;}
-        .pt-sm-0  {padding-top: 0!important;}
-        .pt-sm-1  {padding-top: 10px!important;}
-        .pt-sm-2  {padding-top: 30px!important;}
-        .pr-sm-0  {padding-right: 0!important;}
-        .pr-sm-1  {padding-right: 10px!important;}
-        .pr-sm-2  {padding-right: 30px!important;}
-        .pb-sm-0  {padding-bottom: 0!important;}
-        .pb-sm-1  {padding-bottom: 10px!important;}
-        .pb-sm-2  {padding-bottom: 30px!important;}
-        .pl-sm-0  {padding-left: 0!important;}
-        .pl-sm-1  {padding-left: 10px!important;}
-        .pl-sm-2  {padding-left: 30px!important;}
-        .px-sm-0  {padding-right: 0!important; padding-left: 0!important;}
-        .px-sm-1  {padding-right: 10px!important; padding-left: 10px!important;}
-        .px-sm-2  {padding-right: 30px!important; padding-left: 30px!important;}
-        .py-sm-0  {padding-top: 0!important; padding-bottom: 0!important;}
-        .py-sm-1  {padding-top: 10px!important; padding-bottom: 10px!important;}
-        .py-sm-2  {padding-top: 30px!important; padding-bottom: 30px!important;}
+        .spacer {height: 0;}
+
+        .p-sm-0 {padding: 0!important;}
+        .p-sm-10 {padding: 10px!important;}
+        .p-sm-20 {padding: 20px!important;}
+        .p-sm-30 {padding: 30px!important;}
+        .pt-sm-0 {padding-top: 0!important;}
+        .pt-sm-10 {padding-top: 10px!important;}
+        .pt-sm-20 {padding-top: 20px!important;}
+        .pt-sm-30 {padding-top: 30px!important;}
+        .pr-sm-0 {padding-right: 0!important;}
+        .pr-sm-10 {padding-right: 10px!important;}
+        .pr-sm-20 {padding-right: 20px!important;}
+        .pr-sm-30 {padding-right: 30px!important;}
+        .pb-sm-0 {padding-bottom: 0!important;}
+        .pb-sm-10 {padding-bottom: 10px!important;}
+        .pb-sm-20 {padding-bottom: 20px!important;}
+        .pb-sm-30 {padding-bottom: 30px!important;}
+        .pl-sm-0 {padding-left: 0!important;}
+        .pl-sm-10 {padding-left: 10px!important;}
+        .pl-sm-20 {padding-left: 20px!important;}
+        .pl-sm-30 {padding-left: 30px!important;}
+        .px-sm-0 {padding-right: 0!important; padding-left: 0!important;}
+        .px-sm-10 {padding-right: 10px!important; padding-left: 10px!important;}
+        .px-sm-20 {padding-right: 20px!important; padding-left: 20px!important;}
+        .px-sm-30 {padding-right: 30px!important; padding-left: 30px!important;}
+        .py-sm-0 {padding-top: 0!important; padding-bottom: 0!important;}
+        .py-sm-10 {padding-top: 10px!important; padding-bottom: 10px!important;}
+        .py-sm-20 {padding-top: 20px!important; padding-bottom: 20px!important;}
+        .py-sm-30 {padding-top: 30px!important; padding-bottom: 30px!important;}
       }
     </style>
   </head>
-  <body style="box-sizing:border-box;margin:0;padding:0;width:100%;-webkit-font-smoothing:antialiased;word-break:break-word;">
+  <body style="box-sizing:border-box;margin:0;padding:0;width:100%;word-break:break-word;-webkit-font-smoothing:antialiased;">
 
-    <table class="wrapper" bgcolor="#EEEEEE" cellpadding="15" cellspacing="0" role="presentation" width="100%">
+    <div style="display:none;font-size:0;line-height:0;"><!-- Add your preheader text here --></div>
+
+    <table class="wrapper" cellpadding="15" cellspacing="0" role="presentation" width="100%">
       <tr>
-        <td>
-          <table class="container" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" role="presentation" width="700">
+        <td align="center" bgcolor="#EEEEEE">
+          <table class="container" cellpadding="0" cellspacing="0" role="presentation" width="700">
             <tr>
-              <td>
+              <td align="left" bgcolor="#FFFFFF">
 
                 <!-- ADD ROWS HERE -->
 
