@@ -15,7 +15,7 @@ A modular and lightweight, responsive email framework.
 
 ## Documentation
 
-Framework documentation is available at [thememountain.github.io/documentation/pine](https://thememountain.github.io/documentation/pine/)
+Framework documentation is available at [docs.thememountain.com/pine/]https://docs.thememountain.com/pine/)
 
 ## Issues
 
